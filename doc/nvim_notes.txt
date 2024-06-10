@@ -1,0 +1,41 @@
+*nvim_notes.txt*  Note Taker Plugin
+
+================================================================================
+NOTE TAKER PLUGIN                                                       *nvim_notes*
+
+================================================================================
+Table of Contents                                               *nvim_notes-contents*
+
+  1. Introduction ................................ |nvim_notes-intro|
+  2. Commands .................................... |nvim_notes-commands|
+  3. Usage ....................................... |nvim_notes-usage|
+
+================================================================================
+Introduction                                                       *nvim_notes-intro*
+
+NvimNotes is a toy note taker plugin I built to learn how to write Neovim
+plugins. It is a note taking plugin that allows you to quickly add, view, and
+delete notes directly within Neovim. How it works is it create/read/delete
+`nvim_notes.txt` from neovim's `data` directory
+
+================================================================================
+Commands                                                          *nvim_notes-commands*
+
+  :NvimNotes {opt}
+  {opt} = `add | view | delete`
+
+================================================================================
+Usage                                                             *nvim_notes-usage*
+
+To add a note, use the command:
+  :NvimNotes add
+
+To view all notes, use the command:
+  :NvimNotes view
+
+To delete all notes, use the command:
+  :NvimNotes delete
+
+================================================================================
+
+vim:tw=78:ts=8:ft=help:norl
